@@ -1,13 +1,15 @@
-import { GlobeAltIcon } from '@heroicons/react/24/outline';
-import { lusitana } from '@/app/ui/fonts';
+import Image from 'next/image';
 
-export default function AcmeLogo() {
+export default function GQUnitedLogo() {
   return (
-    <div
-      className={`${lusitana.className} flex flex-row items-center leading-none text-white`}
-    >
-      <GlobeAltIcon className="h-12 w-12 rotate-[15deg]" />
-      <p className="text-[44px]">Acme</p>
+    <div className="flex flex-row items-center leading-none">
+      <Image
+        src="/GQ_United_Logo_Modified.png"
+        alt="GQ United CC Logo"
+        width={48}
+        height={48}
+        className="h-12 w-12"
+      />
     </div>
   );
 }

@@ -1,12 +1,269 @@
-// This file contains placeholder data that you'll be replacing with real data in the Data Fetching chapter:
-// https://nextjs.org/learn/dashboard-app/fetching-data
+// This file contains placeholder data for GQ United Cricket Club members
 const users = [
   {
     id: '410544b2-4001-4271-9855-fec4b6a6442a',
-    name: 'User',
-    email: 'user@nextmail.com',
+    name: 'Vishal Soni',
+    email: 'vishal.soni@gqunitedcc.com',
     password: '123456',
+    role: 'Club Chairperson',
+    experience: 'Senior',
+    specialty: 'Leadership',
+    phone: '+44 7700 900001',
+    joinDate: '2023-04-01'
   },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6442b',
+    name: 'Sushant Gupta',
+    email: 'sushant.gupta@gqunitedcc.com',
+    password: '123456',
+    role: 'Founding Member',
+    experience: 'Senior',
+    specialty: 'All-rounder',
+    phone: '+44 7700 900002',
+    joinDate: '2023-04-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6442c',
+    name: 'Raman Agarwal',
+    email: 'raman.agarwal@gqunitedcc.com',
+    password: '123456',
+    role: 'Founding Member',
+    experience: 'Senior',
+    specialty: 'Batsman',
+    phone: '+44 7700 900003',
+    joinDate: '2023-04-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6442d',
+    name: 'Dhiren Grover',
+    email: 'dhiren.grover@gqunitedcc.com',
+    password: '123456',
+    role: 'Founding Member',
+    experience: 'Senior',
+    specialty: 'Bowler',
+    phone: '+44 7700 900004',
+    joinDate: '2023-04-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6442e',
+    name: 'Aakar Sinhal',
+    email: 'aakar.sinhal@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'Batsman',
+    phone: '+44 7700 900005',
+    joinDate: '2023-06-15'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6442f',
+    name: 'Akshay Varun',
+    email: 'akshay.varun@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'All-rounder',
+    phone: '+44 7700 900006',
+    joinDate: '2023-07-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64430',
+    name: 'Ankit Bedi',
+    email: 'ankit.bedi@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Senior',
+    specialty: 'Bowler',
+    phone: '+44 7700 900007',
+    joinDate: '2023-08-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64431',
+    name: 'Praveen Nair',
+    email: 'praveen.nair@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Senior',
+    specialty: 'Wicket Keeper',
+    phone: '+44 7700 900008',
+    joinDate: '2023-09-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64432',
+    name: 'Sajeel Sharief',
+    email: 'sajeel.sharief@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'Batsman',
+    phone: '+44 7700 900009',
+    joinDate: '2023-10-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64433',
+    name: 'Suleman Sheikh',
+    email: 'suleman.sheikh@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Senior',
+    specialty: 'All-rounder',
+    phone: '+44 7700 900010',
+    joinDate: '2023-11-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64434',
+    name: 'Alex Tharakan',
+    email: 'alex.tharakan@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'Bowler',
+    phone: '+44 7700 900011',
+    joinDate: '2024-01-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64435',
+    name: 'Ameen Faiyaz',
+    email: 'ameen.faiyaz@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Junior',
+    specialty: 'Batsman',
+    phone: '+44 7700 900012',
+    joinDate: '2024-02-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64436',
+    name: 'Ssiddharth Tyagi',
+    email: 'ssiddharth.tyagi@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'All-rounder',
+    phone: '+44 7700 900013',
+    joinDate: '2024-03-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64437',
+    name: 'Vivek Arvind',
+    email: 'vivek.arvind@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Senior',
+    specialty: 'Bowler',
+    phone: '+44 7700 900014',
+    joinDate: '2024-04-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64438',
+    name: 'Fazal Jamadar',
+    email: 'fazal.jamadar@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'Fielder',
+    phone: '+44 7700 900015',
+    joinDate: '2024-05-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64439',
+    name: 'Mannu Jalan',
+    email: 'mannu.jalan@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Junior',
+    specialty: 'Batsman',
+    phone: '+44 7700 900016',
+    joinDate: '2024-06-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6443a',
+    name: 'Lalit Pandey',
+    email: 'lalit.pandey@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Senior',
+    specialty: 'All-rounder',
+    phone: '+44 7700 900017',
+    joinDate: '2024-07-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6443b',
+    name: 'Derik Patel',
+    email: 'derik.patel@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'Bowler',
+    phone: '+44 7700 900018',
+    joinDate: '2024-08-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6443c',
+    name: 'Sakif Chowdhury',
+    email: 'sakif.chowdhury@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Junior',
+    specialty: 'Batsman',
+    phone: '+44 7700 900019',
+    joinDate: '2024-09-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6443d',
+    name: 'Tejas Patel',
+    email: 'tejas.patel@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'All-rounder',
+    phone: '+44 7700 900020',
+    joinDate: '2024-10-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6443e',
+    name: 'Deep Patel',
+    email: 'deep.patel@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Junior',
+    specialty: 'Fielder',
+    phone: '+44 7700 900021',
+    joinDate: '2024-11-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a6443f',
+    name: 'Navhal Mohit',
+    email: 'navhal.mohit@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'Bowler',
+    phone: '+44 7700 900022',
+    joinDate: '2024-12-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64440',
+    name: 'Feel Patel',
+    email: 'feel.patel@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Junior',
+    specialty: 'Batsman',
+    phone: '+44 7700 900023',
+    joinDate: '2025-01-01'
+  },
+  {
+    id: '410544b2-4001-4271-9855-fec4b6a64441',
+    name: 'Ebad Noman',
+    email: 'ebad.noman@gqunitedcc.com',
+    password: '123456',
+    role: 'Team Member',
+    experience: 'Intermediate',
+    specialty: 'All-rounder',
+    phone: '+44 7700 900024',
+    joinDate: '2025-01-01'
+  }
 ];
 
 const customers = [
