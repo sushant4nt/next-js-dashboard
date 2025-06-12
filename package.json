@@ -3,7 +3,8 @@
   "scripts": {
     "build": "next build",
     "dev": "next dev --turbopack",
-    "start": "next start"
+    "start": "next start",
+    "seed": "node -e \"console.log('Visit http://localhost:3000/seed to seed the database')\""
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
